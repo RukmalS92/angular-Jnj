@@ -1,0 +1,61 @@
+.main-background {
+    background-color: rgb(108, 108, 109);
+    height: 800px;
+ }
+
+ .header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+
+
+ .card-bg {
+   background-image: linear-gradient(to bottom right, rgb(255, 0, 221, 0.1), rgba(255, 47, 193, 0.05));
+    /* background-color: rgba(241, 7, 116, 0.8); */
+    border: 3px solid rgb(243, 0, 20);
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    /* background: transparent; */
+ }
+
+ .card-info{
+    background-color: rgba(114, 207, 26, 0.1);
+    border: 2px solid rgba(4, 54, 194, 0.5);
+    border-radius: 10px;
+ }
+
+ .clearance {
+    margin-top: 70px;
+ }
+
+.img-trans {
+   position: relative;
+   animation: lr 15s infinite;
+}
+
+@keyframes lr {
+   from {left : 0%;}
+   to {left: 100%;}
+}
+
+/*Most important is the every part position*/
+
+.myVideo {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+   /* background-size: cover; */
+   opacity: 50%;
+ }
+
+ .section-overlay {
+    position: relative;
+ }
+
+ 
